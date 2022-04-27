@@ -70,7 +70,7 @@ passport.deserializeUser(function(id, done) {
 
 
 app.use(session({
-    secret: "r8q,+&1LM3)CD*zAGpx1xm{NeQhc;#",
+    secret: "r8q,+&1LM3)CD*zSGpx1xm{NeQhc;#",
     resave: false,
     saveUninitialized: true
 }));
